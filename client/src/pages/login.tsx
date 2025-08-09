@@ -166,5 +166,5 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
         />
       </a>
     </div>
-  </CardContent>
-</Card>
+    );
+}
