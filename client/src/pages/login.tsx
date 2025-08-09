@@ -100,15 +100,43 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
         </Card>
 
         {/* Security Notice */}
-        <Card className="mt-6 bg-gradient-to-r from-sky-50 to-blue-50 border-sky-200 slide-in">
-          <CardContent className="pt-4">
-            <p className="text-sm text-sky-800 flex items-center">
-              <Info className="mr-2 flex-shrink-0" size={16} />
-              Secure access required. Contact administrator for access credentials.
-            </p>
-          </CardContent>
-        </Card>
-      </div>
+<Card className="mt-6 bg-gradient-to-r from-sky-50 to-blue-50 border-sky-200 slide-in">
+  <CardContent className="pt-4">
+    <p className="text-sm text-sky-800 flex items-center">
+      <Info className="mr-2 flex-shrink-0" size={16} />
+      Secure access required. Contact administrator for access credentials.
+    </p>
+
+    {/* Social Media Logos */}
+    <div className="flex items-center gap-4 mt-4">
+      <a href="https://facebook.com/bintunet" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
+          alt="Facebook"
+          className="w-6 h-6 hover:scale-110 transition-transform"
+        />
+      </a>
+      <a href="https://x.com/bintunet" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png"
+          alt="X"
+          className="w-6 h-6 hover:scale-110 transition-transform"
+        />
+      </a>
+      <a href="https://instagram.com/bintunet" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
+          alt="Instagram"
+          className="w-6 h-6 hover:scale-110 transition-transform"
+        />
+      </a>
+      <a href="https://tiktok.com/@bintunet" target="_blank" rel="noopener noreferrer">
+        <img
+          src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png"
+          alt="TikTok"
+          className="w-6 h-6 hover:scale-110 transition-transform"
+        />
+      </a>
     </div>
-  );
-}
+  </CardContent>
+</Card>
