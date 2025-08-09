@@ -104,7 +104,7 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
           <CardContent className="pt-4">
             <p className="text-sm text-sky-800 flex items-center">
               <Info className="mr-2 flex-shrink-0" size={16} />
-              Secure access required. Contact administrator for access credentials.
+              Secure access required. Contact administrator for access credentials. Call +254729499463 for Access Code.
             </p>
           </CardContent>
         </Card>
