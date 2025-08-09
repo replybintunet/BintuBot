@@ -97,7 +97,7 @@ export default function Dashboard({ onLogout }: DashboardProps) {
     }
   });
 
-  const handleLogout = () => {
+  const handleAddStream = () => {
     authService.logout();
     onLogout();
   };
