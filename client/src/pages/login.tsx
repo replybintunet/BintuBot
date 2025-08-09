@@ -116,55 +116,19 @@ export default function LoginPage({ onLoginSuccess }: LoginPageProps) {
     </p>
 
     {/* Social Media Logos */}
-    <div className="flex items-center gap-3 mt-4">
-      <a
-        href="https://facebook.com/bintunet"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-blue-600 rounded-full hover:scale-110 transition-transform shadow-sm"
-      >
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
-          alt="Facebook"
-          className="w-5 h-5"
-        />
-      </a>
-      <a
-        href="https://x.com/bintunet"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-black rounded-full hover:scale-110 transition-transform shadow-sm"
-      >
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png"
-          alt="X"
-          className="w-5 h-5"
-        />
-      </a>
-      <a
-        href="https://instagram.com/bintunet"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 rounded-full hover:scale-110 transition-transform shadow-sm"
-      >
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png"
-          alt="Instagram"
-          className="w-5 h-5"
-        />
-      </a>
-      <a
-        href="https://tiktok.com/@bintunet"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="p-2 bg-black rounded-full hover:scale-110 transition-transform shadow-sm"
-      >
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png"
-          alt="TikTok"
-          className="w-5 h-5"
-        />
-      </a>
-    </div>
+<div className="social-icons">
+  <a href="https://facebook.com/bintunet" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" />
+  </a>
+  <a href="https://x.com/bintunet" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="X" />
+  </a>
+  <a href="https://instagram.com/bintunet" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" alt="Instagram" />
+  </a>
+  <a href="https://tiktok.com/@bintunet" target="_blank" rel="noopener noreferrer">
+    <img src="https://cdn-icons-png.flaticon.com/512/3046/3046122.png" alt="TikTok" />
+  </a>
+</div>
     );
 }
